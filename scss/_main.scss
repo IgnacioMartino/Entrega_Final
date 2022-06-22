@@ -40,13 +40,13 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #FEF9F8;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: nowrap;
-		@media all and (max-width: 980px){
-			flex-wrap: wrap;
+}
+#carouselExampleSlidesOnly {
+	@media all and (max-width: 992px){
+		flex-wrap:no-wrap;
 	}
 }
+
 #sub_principal{
 	grid-area: sub_principal;
 	height: 8rem;
