@@ -75,9 +75,7 @@ body {
 	background-size: cover;
 	height: 70px;
 	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+	
 		a img{
 			max-height: 20px;
 			max-width: 20px;
@@ -120,6 +118,11 @@ body {
 }
 /*equipo------------------------*/
 
+.cc {
+	@media all and (max-width:576px){
+		display:none;
+	}
+}
 .principal__1 {
 	grid-area: principal_1;
 	padding: 80px;
@@ -175,6 +178,7 @@ body {
 			}
 		}
 }
+
 #subtitulo2{
 	grid-area: principal_2;
 }
@@ -245,6 +249,19 @@ $fuentes:(
 			margin: 10px;
 			border-radius: 8px;
 			height: 250px;
+			@media all and (min-width:576px){
+				height:100%;
+				width:100%;
+			}
+			@media all and (max-width:576px){
+				height:80%;
+				width:80%;
+			}
+	}
+}
+.letra {
+	@media all and (max-width:576px){
+		font-size:12px;
 	}
 }
 /*Contacto------------------------*/
