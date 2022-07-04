@@ -100,7 +100,7 @@ body {
   position: sticky; }
 
 /*equipo------------------------*/
-@media all and (max-width: 576px) {
+@media all and (max-width: 400px) {
   .cc {
     display: none; } }
 
@@ -144,13 +144,13 @@ body {
       align-items: center; } }
 
 .cajaImagenes {
-  width: 40%;
-  height: 40%; }
+  width: 50%;
+  height: 50%; }
   .cajaImagenes a img {
     max-width: 100%;
     margin: 10px;
     border-radius: 8px;
-    height: 250px;
+    height: 70%;
     width: 70%; }
     @media all and (min-width: 920px) {
       .cajaImagenes a img {

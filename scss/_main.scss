@@ -75,7 +75,6 @@ body {
 	background-size: cover;
 	height: 70px;
 	width: 100%;
-	
 		a img{
 			max-height: 20px;
 			max-width: 20px;
@@ -107,11 +106,11 @@ body {
 	}
 }
 .dropp {
-		visibility: hidden;
-			@media all and (max-width: 1214px){
-				justify-items: right;
-				visibility: visible;
-			}
+	visibility: hidden;
+		@media all and (max-width: 1214px){
+			justify-items: right;
+			visibility: visible;
+		}
 }
 .redes {
 	position: sticky;
@@ -119,7 +118,7 @@ body {
 /*equipo------------------------*/
 
 .cc {
-	@media all and (max-width:576px){
+	@media all and (max-width:400px){
 		display:none;
 	}
 }
@@ -165,13 +164,13 @@ body {
 }
 
 .cajaImagenes {
-	width: 40%;
-	height: 40%;
+	width: 50%;
+	height: 50%;
 		a img {
 			max-width: 100%;
 			margin: 10px;
 			border-radius: 8px;
-			height: 250px;
+			height: 70%;
 			width: 70%;
 				@media all and (min-width: 920px){
 				height: 400px;
@@ -249,13 +248,13 @@ $fuentes:(
 			margin: 10px;
 			border-radius: 8px;
 			height: 250px;
-			@media all and (min-width:576px){
-				height:100%;
-				width:100%;
+				@media all and (min-width:576px){
+					height:100%;
+					width:100%;
 			}
-			@media all and (max-width:576px){
-				height:80%;
-				width:80%;
+				@media all and (max-width:576px){
+					height:80%;
+					width:80%;
 			}
 	}
 }
@@ -269,17 +268,14 @@ $fuentes:(
 .titulo {
 	text-align: left;
 	height: 0px;
-
 		h3{
 			@media all and (max-width: 750px){
 				font-size:1rem;
 				font-weight:bold
-
-		}
-		@media all and (max-width: 500px){
+			}
+			@media all and (max-width: 500px){
 				font-size:0.8rem;
 				font-weight:bold
-
 			}
 		}
 }
